@@ -8,7 +8,7 @@ export const PlusQueryHandler: RequestHandler<
   any,
   CalculationQuery
 > = (req, res) => {
-  res.send('TODO: plusQuery').end()
+  res.json('TODO: plusQuery').end()
 }
 
 export const MinusQueryHandler: RequestHandler<
@@ -17,7 +17,7 @@ export const MinusQueryHandler: RequestHandler<
   any,
   CalculationQuery
 > = (req, res) => {
-  res.send('TODO: minusQuery').end()
+  res.json('TODO: minusQuery').end()
 }
 
 export const MultiplyQueryHandler: RequestHandler<
@@ -26,7 +26,7 @@ export const MultiplyQueryHandler: RequestHandler<
   any,
   CalculationQuery
 > = (req, res) => {
-  res.send('TODO: multiplyQuery').end()
+  res.json('TODO: multiplyQuery').end()
 }
 
 export const DivideQueryHandler: RequestHandler<
@@ -35,5 +35,5 @@ export const DivideQueryHandler: RequestHandler<
   any,
   CalculationQuery
 > = (req, res) => {
-  res.send('TODO: divideQuery').end()
+  res.json('TODO: divideQuery').end()
 }
