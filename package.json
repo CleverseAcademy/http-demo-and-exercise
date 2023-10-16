@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "exercise": "node dist/index.js",
+    "exercise": "node dist/exercise/index.js",
     "demo": "node dist/demo/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
